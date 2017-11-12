@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task - OpenWeatherMap.org</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css" />
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<header>
+  <div class="container text-center">
+    <h1>Task - OpenWeatherMap.org</h1>      
+  </div>
+</header>
+<div class="defaultrow">
+	<div class="container">    
+	  	<div class="text-left">
+	  		<div class="" id="weatherResponse"></div>
+	  	</div>
+	</div>
+</div>
+<div class="row" >
+	<div class="container">
+	  	<h3>Enter city name:</h3>
+	  	<div class="col-sm-4">
+	      <div>          
+	        <input type="text" class="form-control" id="cityName" placeholder="City" name="cityName2" style="width: 300px;" maxlength="30">
+	      </div>
+	      <div class="updateButtonDiv">
+	        <button onclick="updateCity()" class="btn" id="btnCity">Submit</button>
+	      </div>
+	     </div>
+	     <div class="col-sm-8 text-center">
+	      <div id="cityUpdateResponse"></div>
+	     </div>
+      </div>
+</div>
+<script>
+$(function() {
+	init();
+});
+</script>
+</body>
+</html>

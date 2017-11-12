@@ -1,0 +1,54 @@
+body {
+	background-color: #FF8000;
+}
+
+#weatherResponse {
+	font-size: 32px;
+	word-spacing: 30px;
+	color: #FF8000;
+}
+
+#cityUpdateResponse {
+	font-size: 32px;
+	color: white;
+}
+
+header {
+	color: white;
+	background-color: #424242;
+}
+
+.defaultrow {
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+h3 {
+	color: white;
+}
+
+.updateButtonDiv {
+	padding: 10px 0 10px 0;
+}
+
+.btn {
+	background-color: #424242;
+	color: white;
+	text-transform: uppercase;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus {
+	color: white;
+}
+
+.btn:hover {
+	background-color: #585858;
+	color: white;
+}
+
+i{
+	padding: 0 0 0 10px;
+}
+.fa{
+	font-size: 24px;
+}
